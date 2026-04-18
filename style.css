@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.container {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+input {
+  width: 65%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px;
+  background: #444;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #555;
+}
+
+/* completed style */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
